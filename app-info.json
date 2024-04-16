@@ -1,0 +1,48 @@
+{
+  "id": "wheretoeat",
+  "name": "WHERE TO EAT",
+  "description": "Размещение и брони с WHERETOEAT приложения",
+  "logoUrl": "https://hostmeqa.blob.core.windows.net/marketplace/hostme/hostme.svg",
+  "status": "active",
+  "includeCountries": [ "ru" ],
+ "interfaces": [
+   {
+     "interfaceId": "Core.Location",
+     "status": 1
+   },
+   {
+     "interfaceId": "Core.Webhook",
+     "status": 1
+   }
+ ],
+  "UserSettings": [
+  ],
+ "RequestedPermissions": {
+   "AccessLevel": {
+     "booking": [
+       "read",
+       "write",
+       "list"
+     ],
+     "availability": [
+       "read"
+     ],
+     "guest": [
+       "read"
+     ],
+     "events": [
+       "read"
+     ]
+   },
+   "WebhookEvents": [ "reservation", "walking", "waiting" ],
+   "Scope": "app" 
+ },
+ "Settings": {
+   "AppUrl": "https://hostme-services-qa.azurewebsites.net/api/pos/apps/wheretoeat/",
+   "AuthorizationUrl": "https://hostme-panel-qa.azurewebsites.net/signup-partner/auth",
+   "ApiUrl": "https://wheretoeat.ru/hostme/",
+   "SecuritySchemeType": "OAuth2",
+   "WebhookUrl": "https://guide.wheretoeat.ru/webhook/hostme.php",
+   "createreceiptfor": "reservation,walking,waiting"
+ }
+}

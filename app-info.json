@@ -42,7 +42,7 @@
    "AuthorizationUrl": "https://hostme-panel-qa.azurewebsites.net/signup-partner/auth",
    "ApiUrl": "https://wheretoeat.ru/hostme/",
    "SecuritySchemeType": "OAuth2",
-   "WebhookUrl": "https://guide.wheretoeat.ru/webhook/hostme.php",
+   "WebhookUrl": "",
    "createreceiptfor": "reservation,walking,waiting"
  }
 }

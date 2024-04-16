@@ -8,3 +8,7 @@ client_secret:{AppConnectionId}
 client_id:{vendorId}
 
 
+# Hostme Vendor API Swagger
+https://hostme-services-qa.azurewebsites.net/swagger/index.html
+
+

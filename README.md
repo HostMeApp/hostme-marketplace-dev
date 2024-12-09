@@ -84,6 +84,16 @@ Body:
   "internalNotes": "Internal booking note",
   "specialRequests": "guest reservation note",
   "restaurantId": "6591",
+  "campaignInfo": {
+    "url": "www.tables.hostmeapp.com",
+    "platform": "android",
+    "utm_source": "app",
+    "utm_medium": "custom",
+    "utm_content": "",
+    "utm_term": "best italian pizza",
+    "utm_campaign": "",
+    "urlReferrer": ""
+  },
   "id": "e934acd4d4484bf884fe3b62a66ae6c8"
 }
 

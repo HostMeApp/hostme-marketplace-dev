@@ -87,8 +87,8 @@ Body:
   "campaignInfo": {
     "url": "www.tables.hostmeapp.com",
     "platform": "android",
-    "utm_source": "app",
-    "utm_medium": "custom",
+    "utm_source": "meta",
+    "utm_medium": "app",
     "utm_content": "",
     "utm_term": "best italian pizza",
     "utm_campaign": "",
